@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập Form</title>
+  </head>
+  <style>
+    body {
+      border: 20px solid powderblue;
+      margin-left: 400px;
+      margin-right: 400px;
+      margin-top: 20px;
+    }
+    p {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <main>
+      <form>
+        <p
+          style="
+            background-color: orangered;
+            color: white;
+            font-family: verdana;
+            font-size: 200%;
+          "
+        >
+          SỞ THÍCH CỦA BẠN
+        </p>
+        <label for="yourname"><b>Họ và tên</b></label>
+        <input type="text" id="yourname" />
+        <br />
+        <br />
+        <label for="email"><b>Email</b></label>
+        <input type="email" id="email" />
+        <br />
+        <br />
+        <label><b>Sở thích:</b></label>
+        <input type="checkbox" id="the-thao" name="the-thao" />
+        <label for="the-thao"><b>Thể thao</b></label>
+        <input type="checkbox" id="am-nhac" name="am-nhac" />
+        <label for="am-nhac"><b>Âm nhạc</b></label>
+        <input type="checkbox" id="book" name="book" />
+        <label for="book"><b>Đọc sách</b></label>
+        <br />
+        <input type="checkbox" id="web" name="web" />
+        <label for="web"><b>Lướt web</b></label>
+        <input type="checkbox" id="game" name="game" />
+        <label for="game"><b>Chơi game</b></label>
+        <input type="checkbox" id="movies" name="movies" />
+        <label for="movies"><b>Điện ảnh</b></label>
+        <br />
+        <input type="checkbox" id="travel" name="travel" />
+        <label for="travel"><b>Du lịch</b></label>
+        <br />
+        <input type="submit" value="Gửi thông tin" />
+        <input type="reset" value="Nhập lại" />
+      </form>
+    </main>
+  </body>
+</html>
