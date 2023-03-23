@@ -7,6 +7,11 @@
     <title>Mẫu khách hàng</title>
   </head>
   <body>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
     <header><b>Market Research Survey</b></header>
     <main>
       <form action="">
@@ -104,7 +109,7 @@
             Please rate your level of agreement with the following statements.
           </p>
           <table border="1" cellpadding="5" width="0%">
-            <thead>
+            <thead bgcolor="silver">
               <tr>
                 <th></th>
                 <th>Strongly Disagree</th>
@@ -115,11 +120,83 @@
             </thead>
             <tbody>
               <tr>
-                <td></td>
+                <td><b>Our products are priced fairly</b></td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">1</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">2</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">3</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">4 </label>
+                </td>
+              </tr>
+              <tr bgcolor="silver">
+                <td><b>Our products are high quality</b></td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">1</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">2</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">3</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">4 </label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <b
+                    >You would recommend our product to a friend or co-worker</b
+                  >
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">1</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">2</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">3</label>
+                </td>
+                <td align="center">
+                  <input type="radio" id="price" name="price" />
+                  <br />
+                  <label for="">4 </label>
+                </td>
               </tr>
             </tbody>
           </table>
         </section>
+        <br />
+        <input type="submit" value="Submit" />
       </form>
     </main>
   </body>
