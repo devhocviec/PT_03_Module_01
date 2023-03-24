@@ -1,0 +1,27 @@
+h3 {
+  color: blueviolet;
+  text-align: left;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: "Alkatra", cursive;
+  font-size: 500%;
+}
+p {
+  color: red;
+  font-family: Arial;
+  font-size: 120%;
+  border: 1px solid grey;
+  width: fit-content;
+  padding: 10px;
+}
+#element-1 {
+  color: aqua;
+}
+#element-2 {
+  font-size: x-large;
+}
+#element-3 {
+  text-align: center;
+}
