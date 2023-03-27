@@ -1,0 +1,30 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+main {
+  text-align: center;
+}
+.box1 {
+  width: 244px;
+}
+.box2 {
+  width: 500px;
+}
+.block1 {
+  border-radius: 2px;
+  background-color: rgb(71, 73, 221);
+  border: none;
+  color: aliceblue;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+.block {
+  font-size: small;
+  display: inline-block;
+}
+P {
+  width: 400px;
+  text-align: right;
+}
