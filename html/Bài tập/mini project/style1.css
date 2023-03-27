@@ -1,0 +1,19 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.block {
+  display: inline-block;
+  width: 45%;
+  border: 2px solid rebeccapurple;
+  height: 100px;
+  vertical-align: top;
+}
+li {
+  list-style-type: none;
+}

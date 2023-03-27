@@ -1,0 +1,41 @@
+div #box {
+  align-items: center;
+  width: fit-content;
+  background-color: blue;
+  padding: 1px 20px 1px 20px;
+  text-align: center;
+  margin: auto;
+  color: aliceblue;
+}
+div #text {
+  text-transform: capitalize;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+/* div .button {
+  display: inline-block;
+  background-color: black;
+  color: aliceblue;
+  margin: 0 auto;
+  border: none;
+  align-items: center;
+  padding: 10px;
+} */
+#box1 {
+  background-color: black;
+  color: aliceblue;
+  margin: 0 auto;
+  border: none;
+  align-items: center;
+  padding: 10px;
+}
+#box2 {
+  background-color: black;
+  color: aliceblue;
+  margin: 0 auto;
+  border: none;
+  align-items: center;
+  padding: 10px;
+}
